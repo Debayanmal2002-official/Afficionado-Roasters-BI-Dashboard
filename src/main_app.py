@@ -164,7 +164,7 @@ if fl is not None:
                           hole=0.4,
                           color_discrete_sequence=px.colors.qualitative.Bold)
         st.plotly_chart(fig_type, use_container_width=True)
-        fig.update_layout(
+        fig_type.update_layout(
             legend=dict(
                 bgcolor="rgba(0,0,0,0)", # Forces transparency
                 font=dict(color="white")  # Forces white text for dark mode
@@ -395,7 +395,7 @@ if fl is not None:
     )
 
     st.plotly_chart(fig_scatter, use_container_width=True)
-    fig.update_layout(
+    fig_scatter.update_layout(
             legend=dict(
                 bgcolor="rgba(0,0,0,0)", # Forces transparency
                 font=dict(color="white")  # Forces white text for dark mode
