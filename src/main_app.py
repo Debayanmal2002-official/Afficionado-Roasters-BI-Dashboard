@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import warnings
+import plotly.io as pio
+pio.templates.default = 'plotly_dark'
 
 warnings.filterwarnings('ignore')
 
@@ -162,6 +164,14 @@ if fl is not None:
                           hole=0.4,
                           color_discrete_sequence=px.colors.qualitative.Bold)
         st.plotly_chart(fig_type, use_container_width=True)
+        fig.update_layout(
+            legend=dict(
+                bgcolor="rgba(0,0,0,0)", # Forces transparency
+                font=dict(color="white")  # Forces white text for dark mode
+            ),
+            paper_bgcolor="rgba(0,0,0,0)", # Ensures the chart background is transparent
+            plot_bgcolor="rgba(0,0,0,0)"
+        )
 
     with right_col:
         st.subheader("Unique Product Types by Category")
@@ -385,6 +395,14 @@ if fl is not None:
     )
 
     st.plotly_chart(fig_scatter, use_container_width=True)
+    fig.update_layout(
+            legend=dict(
+                bgcolor="rgba(0,0,0,0)", # Forces transparency
+                font=dict(color="white")  # Forces white text for dark mode
+            ),
+            paper_bgcolor="rgba(0,0,0,0)", # Ensures the chart background is transparent
+            plot_bgcolor="rgba(0,0,0,0)"
+        )
 
 else:
     st.info("Please upload an Excel file to generate the dashboard.")
