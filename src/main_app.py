@@ -171,7 +171,7 @@ if fl is not None:
         # Use selectbox for a single choice
         selected_categories = st.selectbox(
             "Select a Category to view details:",
-            options=categories[2]
+            options=categories
         )
 
         main_df_1 = main_df[main_df['product_category'] == selected_categories]
