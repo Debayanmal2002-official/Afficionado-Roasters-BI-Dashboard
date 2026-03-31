@@ -1,6 +1,7 @@
 # ☕ Afficionado Coffee Roasters: Retail Business Intelligence & Menu Engineering
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-link-here.streamlit.app/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19346843.svg)](https://doi.org/10.5281/zenodo.19346843)
 
 ## 📌 Project Overview
 This repository contains a specialized Exploratory Data Analysis (EDA) framework designed for the specialty coffee industry. Moving beyond simple descriptive statistics, this tool implements formal **Menu Engineering** and **Revenue Concentration** models to transform raw transactional data into high-level business strategy.
