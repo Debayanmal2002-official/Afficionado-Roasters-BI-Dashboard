@@ -1,7 +1,6 @@
 # ☕ Afficionado Coffee Roasters: Retail Business Intelligence & Menu Engineering
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://afficionado-roasters-bi-dashboard-gxhznyk5jednzcbb5hhygk
-.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://afficionado-roasters-bi-dashboard-gxhznyk5jednzcbb5hhygk.streamlit.app)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19346843.svg)](https://doi.org/10.5281/zenodo.19346843)
 
 ## 📌 Project Overview
